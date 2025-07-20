@@ -1,12 +1,38 @@
-# 😷 Real-Time Face Mask Detector using CNN
-## This project is a real-time face mask detector that uses a Convolutional Neural Network (CNN) to classify whether a person is wearing a mask or no mask via webcam feed. The model is trained on a labeled dataset and deployed using OpenCV to make real-time predictions.
+# 😷 Face Mask Detector using CNN & OpenCV
 
-# 📌 Features
-- Real-time face detection using OpenCV
+A real-time face mask detection system built using Convolutional Neural Networks (CNN) and OpenCV. The system captures video through your webcam and classifies each detected face as **"Mask"** or **"No Mask"**.
 
-- CNN-based mask classification
+---
 
-- Webcam integration for live inference
+## 📌 Features
 
-- Visual bounding boxes with labels ("Mask"/"No Mask")
+- Real-time webcam feed using OpenCV
+- CNN-based model trained to detect face masks
+- Bounding boxes and labels for detected faces
+- Tells whether there is mask or no mask
+
+---
+
+## 🧠 Tech Stack
+
+- Python
+- OpenCV
+- TensorFlow / Keras
+- NumPy
+
+
+---
+
+## 🛠️ Setup Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/RITIKA-01A/Face-mask-detector.git
+   cd Face-mask-detector
+   ```
+2. **Install Requirements**
+```
+pip install -r requirements.txt
+```
+
 
